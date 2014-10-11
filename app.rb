@@ -13,7 +13,7 @@ get '/anagram/?' do
 
   anagram = Anagram.new(first_word, second_word)
 
-  return_message[:answer] = anagram.is_anagram?
+  return_message[:answer] = anagram.anagram?
   return_message.to_json
 end
 

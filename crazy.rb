@@ -1,3 +1,4 @@
+# shuffles word
 class Crazy
   def initialize(word)
     @word = word
